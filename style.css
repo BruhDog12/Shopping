@@ -1,0 +1,118 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial;
+    color: #211a1a;
+    font-size: 0.9em;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#shopping-cart{
+    margin: 40px;
+}
+#product-grid{
+    margin: 40px;
+}
+#shopping-cart table{
+    width: 100%;
+}
+#shopping-cart table td{
+    background-color: #fff;
+}
+
+.tet-heading{
+    color: #211a1a;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: auto;
+}
+#btnEmpty{
+    background-color: #fff;
+    border: #d00000 1px solid;
+    padding: 5px 10px;
+    color: #d00000;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.btnAddAction{
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #efefef;
+    border: #e0e0e0 1px solid;
+    color: #211a1a;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-item {
+    float: left;
+    background: #fff;
+    margin: 30px 30px 0px 0px;
+    border: #e0e0e0 1px solid;
+}
+
+
+/*sidebar*/
+
+.container {
+    margin: 0 auto;
+    background: #BEBEBE;
+    width: 90vw;
+    display: flex;
+    border-radius: 3px;
+}
+.sidebar {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product {
+    width: 80%;
+    padding: 10px;
+}
+
+.sidebar-search {
+    padding: 10px;
+    border: 2px solid transparent;
+    width: 100%;
+    font-size: 1.5vw;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.sidebar-search:focus {
+    border: 1.5px solid #000000;
+}
+
+.sidebar-items {
+    background: #F7F9F9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0.5px solid #979A9A;
+    color:#212F3D;
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.sidebar-items:hover {
+    background-color: #212F3D;
+    color: #fff;
+    transition: 0.5s;
+}
